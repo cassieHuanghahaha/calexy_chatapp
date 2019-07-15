@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CalexyChatRoom</title>
+    <link rel="icon" href="/img/chat.png" />
+    <link rel="stylesheet" href="/css/styles.min.css" />
+  </head>
+  <body>
+    <div class="centered-form">
+      <div class="centered-form__box">
+        <h1 class="text-center">
+          CalexyChat
+        </h1>
+        <h5>Chat with your birthday twins!</h5>
+        <form action="/chat.html">
+          <label>Birth Day</label>
+          <input
+            type="date"
+            name="room"
+            min="1919-01-01"
+            max="2013-12-31"
+            placeholder="Enter your birth day."
+            required
+          />
+
+          <label>Display name</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Display name"
+            required
+          />
+          <button>Join</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
